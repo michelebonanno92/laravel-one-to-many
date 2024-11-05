@@ -1,9 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
-use App\Models\Type;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
+
+// Models
+use App\Models\Type;
 
 class TypeController extends Controller
 {
